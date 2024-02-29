@@ -41,6 +41,10 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	function setResult(value) {
-		resultSpan.textContent = value
+		if (isNaN(value)) {
+			resultSpan.textContent = 'Введите корректные числа'
+		} else {
+			resultSpan.textContent = value
+		}
 	}
 })
