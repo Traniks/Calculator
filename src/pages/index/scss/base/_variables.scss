@@ -1,0 +1,32 @@
+:root {
+    // background
+    --bg-main: #ffffff;
+    --bg-second: #161D2F;
+    --bg-second-transparent: rgba(22, 29, 47, 0.95);
+
+    //text
+    --text-main: #000000;
+    --text-main_grey: #4B4B4B;
+    --text-second: #ffffff;
+
+    // link
+    --link-text: #3043A9;
+
+    //btn
+    --btnColor-bg_default: linear-gradient(97deg, #3043A9 11.99%, #1F629F 96.6%);
+    --btnColor-text_default: #ffffff;
+
+    // input
+    --input: #00000000;
+    --input-border: #ffffff;
+    --input-text: #ffffff;
+
+    // z-index
+    --index-elem-1: 1; // Для наползающих элементов
+    --index-elem-2: 2; // Для наползающих элементов
+    --index-elem-3: 3; // Для наползающих элементов
+    --index-mask: 4; // Для масок и оверлеев
+    --index-sidebar: 5; // Для сайдбаров
+    --index-modal: 6; // Для модалок
+    --index-topmost: 7; // Для перекрывающих все элементов
+}
